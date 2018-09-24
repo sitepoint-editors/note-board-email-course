@@ -2,8 +2,6 @@
 
 In this tutorial, James Kolce shows how to create a note-taking app using Hapi.js, Pug, Sequelize and SQLite. Learn to build Node.js MVC apps by example.
 
-https://www.sitepoint.com/node-js-mvc-application
-
 ## Requirements
 
 * [Node.js](http://nodejs.org/) (v8.12.0 or higher)
