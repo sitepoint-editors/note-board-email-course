@@ -3,14 +3,13 @@ const Inert = require('inert');
 const Path = require('path');
 const Pug = require('pug');
 const Vision = require('vision');
-const Settings = require('./settings');
-const Routes = require('./lib/routes');
 const Models = require('./lib/models/');
-
+const Routes = require('./lib/routes');
+const Settings = require('./settings');
 const server = new Hapi.Server({ port: Settings.port });
 
 const init = async () => {
-  await server.register([Vision, Inert]);
+  await server.register([ Vision, Inert ]);
 
   server.views({
     engines: { pug: Pug },
